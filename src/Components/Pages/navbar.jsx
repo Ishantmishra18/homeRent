@@ -5,10 +5,10 @@ import { BsPersonCircle } from "react-icons/bs";
 
 const navbar = () => {
   return (
-    <div className='bg-main md:h-[14vh] h-[10vh] w-screen text-main flex justify-between px-6 items-center '>
+    <div className='bg-white md:h-[14vh] h-[10vh] w-screen text-main flex justify-between px-6 items-center sticky top-0 z-50'>
       <div className="logo flex items-center gap-4 h-full">
-      <TbHomeFilled className='h-[6vh] w-[6vh] aspect-auto text-white'/>
-      <h2 className='text-white text-3xl font-bold uppercase md:block hidden'>travo</h2>
+      <TbHomeFilled className='h-[6vh] w-[6vh] aspect-auto text-main'/>
+      <h2 className='text-main text-3xl font-bold uppercase md:block hidden'>travo</h2>
       </div>
       <div className="searchinfo w-auto h-[80%] flex gap-2 items-center">
         <div className="place bg-white w-[14vw] rounded-lg rounded-l-full shadow-md shadow-sec">Where</div>
